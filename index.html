@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="big-box">
+      <h1 class="todo-h1">Todo Avançado</h1>
+
+      <div class="todo-add">
+        <label id="todo-form" for="add-task">Adicione sua Tarefa</label>
+        <div class="todo-add-task">
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="O que você vai fazer?"
+          />
+          <button class="button-add-task">+</button>
+        </div>
+      </div>
+
+      <div class="container-todo-2">
+        <div class="todo-search-filter">
+          <label for="pesquisar-tabela">Pesquisar:</label>
+          <label class="filter, invisivel"  for="">Filtrar: </label>
+        </div>
+        <div class="search2-everything">
+          <input class="search2" type="text" id="pesquisar-tabela" name="" placeholder="Buscar" />
+          <button class="button-add-task-2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <select class="everything, invisivel" name="" id="">
+            <option value="">todos</option>
+          </select>
+        </div>
+      </div>
+    
+
+      <section class="task-list">
+        <h2>Tasks</h2>
+
+        <div id="tasks">
+          
+        </div>
+      </section>
+    </div>
+    <script  src="./index.js"></script>
+  </body>
+</html>

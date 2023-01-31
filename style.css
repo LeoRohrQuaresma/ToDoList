@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+}
+
+.big-box {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 40px 60px;
+  background-color: white;
+}
+
+.todo-h1 {
+    margin-bottom: 40px;
+}
+
+.todo-add {
+   
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.todo-add-task {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.button-add-task {
+  padding: 5px 8px;
+}
+
+.container-todo-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+
+.todo-search-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.search2-everything {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
+
+.search2 {
+  width: 170px;
+  height: 25px;
+  margin-right: 10px;
+  
+}
+
+
+.everything {
+  margin-left: 20px;
+}
+
+.filter {
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.button-add-task-2 {
+  width: 30px;
+  height: 27px;
+  margin-right: 30px;
+}
+
+
+.task-in-list {
+  color: red;
+  display: flex;
+  justify-content: center;
+
+}
+
+.task-in-list i {
+  margin-left: 10px;
+}
+
+.invisivel{
+  display: none;
+}
+
+.todo-result:hover{
+  cursor: pointer;
+  text-decoration: line-through;
+  text-decoration-color: red;
+
+}
